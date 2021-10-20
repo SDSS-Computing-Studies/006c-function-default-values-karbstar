@@ -26,9 +26,8 @@ def multiplication(x,y=12):
         print(g,z)
         
         if u==y:
-            g=x*z
-            lst.append(g)
             d=False
+        else:
             lst.append(g)
     return lst
 
