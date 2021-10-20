@@ -24,12 +24,12 @@ def multiplication(x,y=12):
         g=x*z
         z+1
         print(g,z)
-        lst.append(g)
+        
         if u==y:
             g=x*z
             lst.append(g)
             d=False
-        time.sleep(0.25)
+            lst.append(g)
     return lst
 
 assert multiplication(5) == [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
