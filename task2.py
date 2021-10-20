@@ -20,9 +20,10 @@ def multiplication(x,y=12):
     z=1
     lst=[]
     while d == True:
-        u=1
+
         g=x*z
-        z+1
+        z=z+1
+    
         print(g,z)
         
         if u==y:
